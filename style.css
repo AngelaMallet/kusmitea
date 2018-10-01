@@ -1,0 +1,37 @@
+#headerimg {
+  height: 430px;
+}
+.headerimg {
+  height: 430px;
+}
+.headerimg-link {
+  clear:both;
+  display:block;
+  position:relative;
+  overflow:hidden;
+}
+.headerimg-img {
+  background:url(images/KUSMI-2018_09-KUSMI-octobre-rose-HPDESK-FR.jpg) center top no-repeat;
+  height:430px;
+}
+.teamate {
+  transform: rotate(-142deg);
+}
+.teanoir {
+  transform: rotate(-95deg);
+}
+.teavert {
+  transform: rotate(-36deg);
+}
+.teamatcha {
+  transform: rotate(9deg);
+}
+.teainfu {
+  transform: rotate(63deg);
+}
+.tearooi {
+  transform: rotate(114deg);
+}
+.teablanc {
+  transform: rotate(170deg);
+}
