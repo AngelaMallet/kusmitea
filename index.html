@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="icon" href="https://static.kusmitea.com/media/favicon/default/favicon_1.ico" alt="image_icon" />
-    <link rel="stylesheet" href="style.css">
-    <title>Thés & infusions de qualité - KUSMI TEA</title>
-  </head>
-  <body>
-<div id="newlester">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3 hidden-xs text-right">
-        <img src="img/IMG_5709.PNG" alt="Letter" class="img-responsive" width="222" height="137" />
-      </div>
-      <div class="col-sm-6 col-md-7">
-        <div>
-          <h2>Inscrivez-vous à notre newsletter pour recevoir nos offres et actualités</h2>
-          <form class="imput-group" action="/newsletters/subscriber/subscription" method="post">
-            
-          </form>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" href="https://static.kusmitea.com/media/favicon/default/favicon_1.ico" alt="image_icon" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Lato:300,400" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Thés & infusions de qualité - KUSMI TEA</title>
+</head>
+<body>
+  <div id="newsletter">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-xs-hidden text-right mail">
+          <img src="img/IMG_5709.PNG" alt="Letter" class="img-fluid" width="222" height="137" />
         </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="form-group">
+            <h2>Inscrivez-vous à notre newsletter pour recevoir nos offres et actualités</h2>
+            <form class="input-group" action="/newsletters/subscriber/subscription" method="post">
+              <input type="email" name="email" placeholder="Votre email">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Ok</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row mention">
+        <p>En cliquant sur « OK », vous acceptez expressément de recevoir les offres commerciales et les actualités de KUSMI TEA par email selon les conditions suivantes et conformément à notre Politique de confidentialité.
+          Vos données sont collectées par la société ORIENTIS GOURMET, responsable de traitement exploitant les marques KUSMI TEA et LØV ORGANIC et sont réservées à l’usage des sociétés du Groupe ORIENTIS GOURMET, y compris celles situées en dehors de l’Union Européenne. Ces données sont destinées à la gestion et au suivi de nos relations commerciales, à la réalisation d’enquête de satisfaction, de statistiques, d’études marketing et comportementales ainsi qu’à la personnalisation de nos offres et produits. Vous pourrez à tout moment retirer votre consentement et modifier vos préférences d’abonnement directement dans votre espace « Mon Compte » ou vous désabonner en suivant la procédure indiquée dans nos correspondances. La protection de vos données nous est importante. Pour plus d’informations, nous vous invitons à consulter notre politique de confidentialité ici
+        </p>
       </div>
     </div>
   </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  <div id="advantage" class="text-center">
+  </div>
+  <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
