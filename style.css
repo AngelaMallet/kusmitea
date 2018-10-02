@@ -1,12 +1,4 @@
-#newsletter{
-  padding:35px 0 15px 0;
-  background:#ebebeb;
-}
-
-#newsletter.mail{
-  padding-right: 20px;
-}
-#newsletter h2{
+#footer-newsletter h2{
   font-family: 'Crimson Text', serif;
   font-size: 20px;
   font-style: italic;
@@ -21,7 +13,7 @@
   font-weight: 300;
   color: #999999;
 }
-#advantage{
+#footer-advantage{
   padding:35px 0;
     height: 30vh;
 }
