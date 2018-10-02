@@ -1,7 +1,8 @@
 #newsletter{
   padding:35px 0 15px 0;
-  background:#ebebeb;;
+  background:#ebebeb;
 }
+
 #newsletter.mail{
   padding-right: 20px;
 }
@@ -21,5 +22,24 @@
   color: #999999;
 }
 #advantage{
-  padding:35px 0 
+  padding:35px 0;
+    height: 30vh;
+}
+.history-content{
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  color: #fff;
+  position: relative;
+  height: 30vh;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.history-accroche{
+  font-size: 20px;
+  text-align: center;
 }
